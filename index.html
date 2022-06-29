@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:ital@1&family=Rubik:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="heading">
+    <h1>We are finally open!</h1>
+</div>
+<div class="container">
+    <div class="item one selected">
+        <h4>Berta</h4>
+        <p class="par" >Comfortable leather sofa - always comfort!</p>
+        <p class="price" >5000$</p>
+    </div>
+    <div class="item two" >
+        <h4>Valencia</h4>
+        <p class="par">Sofa for the living room-soft velor!</p>
+        <p class="price">2000$</p>
+    </div>
+
+    <div class="item three" >
+        <h4>Virginia</h4>
+        <p class="par">Small sofa with soft armrests and seats!</p>
+        <p class="price">1000$</p>
+    </div>
+    <div class="item four">
+        <h4>Anabel</h4>
+        <p class="par">Kitchen set for morning coffee in the family!!</p>
+        <p class="price">2500$</p>
+    </div>
+    <div class="item five" >
+        <h4>Giselle</h4>
+        <p class="par">Cozy sofa in blue style!</p>
+        <p class="price">2100$</p>
+    </div>
+    <div class="item six" >
+        <h4>Margarita</h4>
+        <p class="par">Luxurious bed for better sleep!</p>
+        <p class="price">5000$</p>
+    </div>
+
+</div>
+
+ <div class="heading" >
+     <h3>Send as a message!</h3>
+ </div>
+
+ <form
+  action="https://formspree.io/f/xgedagkd"
+  method="POST">
+
+  
+ <input type="hidden" name="_language" value="ru">
+ 
+ <!-- строка выше можно менять язык формы , ответа что ваше сообщение отправлено "ru" -->
+
+<div class="heading">
+  <label>
+    Your email:
+    <input type="email" class="text-input" placeholder="Your email..." name="_replyto" required="" >
+  </label>
+</div>
+<!-- required чтоб пользователь не смог отправить пустую форму, не заполненные строки -->
+
+<div class="heading" >
+  <label>
+    Your message:
+    <textarea name="message" class="text-input" placeholder="Type your messager..." required="" ></textarea>
+  </label>
+</div>
+
+<br>
+
+  <!-- your other form fields go here -->
+  
+<div class="heading" >
+  <button class="btn" type="submit">Send</button>
+</div>
+
+ 
+</form>
+
+
+
+
+    <script src="index.js" ></script>
+</body>
+</html>
